@@ -22,7 +22,7 @@ const MainLayout = () => {
           </Toolbar>
         </AppBar>
       </Box>
-      <Box sx={{ mt: 6 }}>
+      <Box sx={{ mt: 6, display: 'flex', justifyContent: 'center' }}>
         <Outlet />
       </Box>
     </>
