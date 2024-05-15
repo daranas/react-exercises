@@ -47,7 +47,7 @@ const TodoList = () => {
     <Box sx={{ width: 500 }}>
       <Paper
         component="div"
-        sx={{ p: '2px 4px', display: 'flex', alignItems: 'center', mb: 2}}
+        sx={{ p: '6px 8px', display: 'flex', alignItems: 'center', mb: 3 }}
       >
         <InputBase
           sx={{ ml: 1, flex: 1 }}
@@ -71,11 +71,12 @@ const TodoList = () => {
           sx={{ 
             py: 1,
             px: 2,
-            mb: 1,
+            mb: 0,
             textAlign: 'left',
             display: 'flex',
             justifyContent: 'space-between',
-            alignItems: 'center'
+            alignItems: 'center',
+            borderRadius: 0
           }}
         >
           <Typography sx={{ fontSize: 14, m: 0 }}>
